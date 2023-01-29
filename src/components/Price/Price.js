@@ -1,4 +1,5 @@
 import React from 'react';
+import AssignmentMarks from '../AssignmentMarks/AssignmentMarks';
 import PriceOption from '../PriceOption/PriceOption';
 
 const Price = () => {
@@ -45,6 +46,7 @@ const Price = () => {
                     ></PriceOption>)
                 }
             </div>
+            <AssignmentMarks></AssignmentMarks>
         </div>
     );
 };
