@@ -1,5 +1,6 @@
 import React from 'react';
 import AssignmentMarks from '../AssignmentMarks/AssignmentMarks';
+import PhoneBar from '../PhoneBar/PhoneBar';
 import PriceOption from '../PriceOption/PriceOption';
 
 const Price = () => {
@@ -46,7 +47,12 @@ const Price = () => {
                     ></PriceOption>)
                 }
             </div>
-            <AssignmentMarks></AssignmentMarks>
+            <div className='mt-4'>
+                <AssignmentMarks></AssignmentMarks>
+            </div>
+            <div className='mt-4'>
+                <PhoneBar></PhoneBar>
+            </div>
         </div>
     );
 };
